@@ -1,13 +1,45 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     <script src="js/jquery-3.2.1.js"></script>
     <title>PetZ get EM</title>
   </head>
+
   <body>
+    <div class="container">
+      <h1>Adopt a pet</h1>
+      <form id="formOne">
+        <div class="form-group">
+          <label for="input_name">Name:</label>
+          <input placeholder="Name" id="input_name" type="text">
+        </div>
+        <p>
+          <input name="group1" type="radio" id="cat">
+          <label for="cat">Cat</label>
+          <input name="group1" type="radio" id="dog">
+          <label for="dog">Dog</label>
+        </p>
+        <div class="form-group">
+          <label for="input_breed">Breed:</label>
+          <input placeholder="Breed" id="input_breed" type="text">
+        </div>
+        <br>
+        <div class="form-group">
+          <label for="input_age">Age:</label>
+          <input placeholder="Age" id="input_age" type="number">
+        </div>
+        <br>
+        <div class="form-group">
+          <label for="input_bio">Add a bio for your pet:</label>
+          <br>
+          <textarea placeholder="Add a bio" id="input_bio" type="text"></textarea>
+        </div>
+        <button class="btn" type="submit">Submit</button>
+      </form>
+    </div>
 
   </body>
 </html>

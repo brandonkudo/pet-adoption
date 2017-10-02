@@ -1,7 +1,15 @@
-.flashcard {
+.adopted-yes {
   border: 2px solid black;
   height: 300px;
   width: 500px;
+  background-color: red;
+}
+
+.adopted-no {
+  border: 2px solid black;
+  height: 300px;
+  width: 500px;
+  background-color: green;
 }
 
 h4:hover{
